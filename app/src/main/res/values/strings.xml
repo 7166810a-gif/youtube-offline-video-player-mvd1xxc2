@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">נגן יוטיוב אופליין</string>
+    <string name="search_hint">חיפוש סרטונים במכשיר...</string>
+    <string name="empty_videos">לא נמצאו קבצי וידאו במכשיר</string>
+    <string name="permission_required">נדרשת הרשאת גישה לקבצי וידאו כדי לצפות בהם</string>
+    <string name="grant_permission">מתן הרשאה</string>
+    <string name="favorites_tab">מועדפים</string>
+    <string name="history_tab">היסטוריה</string>
+    <string name="explore_tab">סרטונים</string>
+    <string name="playback_speed">מהירות נגינה</string>
+    <string name="loop_on">חזרה: פעיל</string>
+    <string name="loop_off">חזרה: כבוי</string>
+    <string name="related_videos">סרטונים נוספים במכשיר</string>
+    <string name="video_duration">משך: </string>
+    <string name="video_size">גודל: </string>
+    <string name="share">שיתוף</string>
+    <string name="favorite">הוסף למועדפים</string>
+    <string name="unfavorite">הסר ממועדפים</string>
+</resources>
