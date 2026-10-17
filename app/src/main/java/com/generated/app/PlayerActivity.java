@@ -229,7 +229,7 @@ public class PlayerActivity extends Activity implements SurfaceHolder.Callback, 
         // Touch gestures for volume, brightness and showing/hiding controls
         gestureDetector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
             @Override
-            public boolean onSingleTapConfirmed(boolean e) {
+            public boolean onSingleTapConfirmed(MotionEvent e) {
                 toggleControls();
                 return true;
             }
