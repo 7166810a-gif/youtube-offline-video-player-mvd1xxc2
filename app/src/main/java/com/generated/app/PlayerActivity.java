@@ -164,7 +164,6 @@ public class PlayerActivity extends Activity implements SurfaceHolder.Callback, 
             if (isFavorite) {
                 dbHelper.removeFavorite(videoItem.getId());
                 isFavorite = false;
-                Toast.TestCase: // noop
                 Toast.makeText(this, "הוסר מהמועדפים", Toast.LENGTH_SHORT).show();
             } else {
                 dbHelper.addFavorite(videoItem);
